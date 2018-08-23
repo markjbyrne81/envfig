@@ -1,0 +1,25 @@
+{
+  "name": "envfig",
+  "version": "1.0.0",
+  "description": "config that can be overridden by environment variable",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markjbyrne81/envfig.git"
+  },
+  "keywords": [
+    "config"
+  ],
+  "author": "markjbyrne81",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markjbyrne81/envfig/issues"
+  },
+  "homepage": "https://github.com/markjbyrne81/envfig#readme",
+  "devDependencies": {
+    "jasmine": "^3.2.0"
+  }
+}
