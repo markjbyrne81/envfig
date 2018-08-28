@@ -4,7 +4,8 @@
   "description": "config that can be overridden by environment variable",
   "main": "index.js",
   "scripts": {
-    "test": "npm run jasmine"
+    "test": "npm run jasmine",
+    "jasmine": "cross-env JASMINE_CONFIG_PATH=./jasmine.json jasmine"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/markjbyrne81/envfig#readme",
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "jasmine": "^3.2.0"
   }
 }
